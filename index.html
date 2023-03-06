@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script Salud</title>
+</head>
+<body>
+    <center>
+    <h1>Scripts de Roblox</h1>
+    <hr>
+    <h3>Script para perder salud</h3>
+    <textarea cols='80' rows='4' id="codigo">
+        script.Parent.Touched:Connect(function(hit)
+	    hit.Parent.Humanoid.Health=hit.Parent.Humanoid.Health-5 
+        end)
+        </textarea><br>
+        <button type="button" id="copyClip" data-clipboard-target="#codigo">Copiar texto</button>
+        <script src="clipboard.min.js"></script>
+
+    <br><br>
+    <hr>
+    <h3>Script para súper salto</h3>
+    <textarea cols='80' rows='4' id="codigo">
+        script.Parent.Touched:Connect(function(jump)
+        jump.Parent.Humanoid.JumpHeight=500
+        end)
+    </textarea><br>
+    <button type="button" id="copyClip" data-clipboard-target="#codigo">Copiar texto</button>
+    <script src="clipboard.min.js"></script>
+    <br><br>
+    <hr>
+    </center>
+</body>
+</html>
