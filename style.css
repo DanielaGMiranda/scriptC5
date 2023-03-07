@@ -1,0 +1,14 @@
+body {
+    font-family: 'Tilt Neon', cursive;
+    background-image: url("background.png");
+}
+button {
+    font-family: 'Tilt Neon', cursive;
+    color: navy;
+}
+textarea {
+    font-family: 'Tilt Neon', cursive;
+}
+h3, h1 {
+    color: white;
+}
